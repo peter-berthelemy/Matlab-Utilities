@@ -1,6 +1,8 @@
 
 function [bigdata] = getairglowdata(location, wavelength, year)
 
+%Gets airglow data from eepc from the given location, wavelength, and year
+
 % if location == ':'
 %     location = '*';
 % elseif wavelength == ':'

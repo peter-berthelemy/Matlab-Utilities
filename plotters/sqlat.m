@@ -1,5 +1,6 @@
 function sqlat(image, varargin)
-
+%Square, flat shading pcolor
+%Needs rewriting to slim down
 c = numel(varargin);
 % varargin{1}
 switch c

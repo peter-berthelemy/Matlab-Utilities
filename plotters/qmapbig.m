@@ -1,5 +1,5 @@
 function [] = qmapbig(bigLon, bigLat, para)
-
+%qmap x bigshow, takes forever, not good
 figure
 m_proj('robinson', 'lat', [-90, 90], 'lon', [-180, 180])
 % temp = squeeze(para(1, :, :));

@@ -1,5 +1,7 @@
 function TF = isInside(ps1, ps2)
-    %Just for polyshapes I think, is ps1 inside ps2
+
+%Check if ps1 is inside ps2
+%Only polyshapes
     if isempty(ps1.Vertices) == 1 || isempty(ps2.Vertices) == 1 
         TF = 0;
     else
